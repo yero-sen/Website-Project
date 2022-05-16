@@ -1,0 +1,54 @@
+html {
+    background: url("img/foodquiz.jpg") no-repeat fixed center;
+    background-size: cover;
+  }
+
+body {
+    text-align:left;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 800px;
+    height: 1250px;
+    padding: 30px 50px;
+    margin: 45px auto;
+    border-radius: 10px;
+}
+#queInput {
+  width: 240px;
+  margin-left: 1px;
+  height: 20px;
+  font-size: large;
+}
+
+  h1 {
+    background:rgba(240, 234, 157, 0.904);
+    width: 600px;
+    height: 45px;
+    padding: 0px 100px;
+    margin: 45px auto;
+    text-align: center;
+    border-radius: 25px;
+    color:rgba(34, 141, 8, 0.671);
+    font-family:cursive;
+    text-decoration-line: underline;
+  }
+#elements {
+  width: 400px;
+  height: 240px;
+}
+
+hr {
+    width: 790px;
+    border: 1px solid rgb(221, 224, 19);
+  }
+
+  #ansInput, #queInput {
+    font-weight: normal;
+    color: rgb(56, 155, 25);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#resultsbutton {
+  padding: 8px 45px;
+  background-color: #55ac44;
+  color: white;
+}
